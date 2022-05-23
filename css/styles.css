@@ -25,3 +25,35 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emoji {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      }
+
+  h2 {
+      flex: 1;
+      order: 2;
+  }
+
+  .icon {
+      flex: 1;
+      order: 1;
+  }
+
+  p {
+      flex: 1;
+      order: 3;
+  }
+
+  a {
+      flex: 1;
+      order: 4;
+  }
+
+  .emojis {
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: repeat(2, 1fr);
+  }
